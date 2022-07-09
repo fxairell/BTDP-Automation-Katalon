@@ -6,7 +6,7 @@ ScenarioTestDocs-20220629-F.X. Airell Valerio Satrio W.xlsx.
 
 Nama			: F.X. Airell Valerio Satrio Wibowo
 Kode Peserta	: KSAT006ONL013
-Link Github		:
+Link Github		: https://github.com/fxairell/BTDP-Automation-Katalon
 Ringkasan		:
 
 Sheet yang terdapat dalam file:
