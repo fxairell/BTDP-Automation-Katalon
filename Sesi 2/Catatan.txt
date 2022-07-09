@@ -1,0 +1,67 @@
+Test Cloud: Ngetest script langsung di server Katalon
+
+Hati-hati, kelihatannya sama
+Antara Test Case dan Scripts
+Nanti ada di Scripts dengan bahasa groovie
+
+Kalau semisal gak ketemu objeknya,
+Akan cari lagi objek lain yang kira-kira mirip atau berada di dekatnya
+Akan diteruskan kalau sudah ketemu
+==> Self Healing
+Bisa didisable buat tahu errornya dimana
+
+Tetap success meski self healing,
+Tapi tetap harus dicek untuk definisi self healingnya
+
+Biasanya Katalon akan jalanin kurang lebih 30 detik
+Untuk set nya
+Project -> Settings -> Execution
+Default wait for element timeout box
+
+Kalau error, di Log viewer ada warna merah
+
+Test scenario dan case yang baik
+Ada penjelasan singkat, mudah dimengerti
+
+Test scenario bisa merepresentasikan test case lain
+Pre condition (sebelum melakukan sesuatu, ada persyaratan yang sudah dipenuhi)
+Bisa ditulis Test case ID
+Positive/Negative
+
+Di setiap functional harus ada positive dan negative test
+Karena perlu mitigasi kalau ada user yang iseng
+Maka aplikasi harus bisa menghandle perilaku user tersebut
+Ada normal flow dan upnormal flownya
+
+Kalau negative test
+Klik dulu promptnya, pause dulu
+Lalu ganti Click dengan Verify Element Present
+
+Test Case
+Paling enggak Facility dan Healthcare Program
+
+Close Browser dan Call test case
+Sekarang mulai dari end to end
+Untuk hari ini ditutup dengan Close Browser
+
+Untuk link
+https://katalon-demo-cura.herokuapp.com/
+(siapa tahu lupa)
+
+Kalau masukin manual pakai Spy Web secara manual
+Kalau ada kotak merah-merah, itu artinya ada object yang bisa ditangkap
+Nanti pakai Alt + ~ atau Shift + Alt + ~
+Di box dialog Object Spy akan muncul objectnya
+Biar mudah, nanti Object Name diubah jadi lebih gampang
+
+Agar lebih praktis, capture semua objek yang bisa dicapture
+
+Verify => Cek apakah sudah sesuai
+Verify element text = Cek apakah teks sesuai
+Verify element present = Cek apakah element ada
+
+Assertion => Cek lagi ada gak objectnya
+
+Jaga-jaga kalau chrome drivernya belum ke update
+Stuck buka browser aja gak bisa
+Masuk ke Tools -> Update WebDrivers -> Pilih yang sesuai

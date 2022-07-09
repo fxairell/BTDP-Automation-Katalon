@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Send DELETE request to delete post 20</description>
+   <name>DLT_020</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4648050f-aab5-48d4-816b-3808ce75b8c7</testCaseGuid>
+</TestCaseEntity>

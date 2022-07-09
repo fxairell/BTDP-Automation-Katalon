@@ -1,0 +1,140 @@
+Jira pake email pribadi
+Tugasnya kreator => Buat Jira dan invite workmates
+
+Email dummy pusat contoh: akunadmin@yuhuu.com
+Email dummy clone contoh: akunadmin+1@yuhuu.com
+dan seterusnya nomornya, bisa dimasukkan ke Jira
+Notifikasi akan masuk di email dummy pusat
+
+Untuk jadi admin di Jira
+https://www.atlassian.com/software/jira/free
+Langsung pilih Next => by Email (recommend) atau Sign in with Google
+
+Login dulu nanti dicek untuk sitenya apakah available namanya
+Sitenya harus unique
+Langsung pilih Agree
+
+Tell us a bit about yourself => Skip question (life hack)
+Lalu Skip
+Nama Project diisi biar gak bingung
+Keynya biarkan sesuai dari rekomendasi yang diberikan
+Change Template => Scrum => Use Template => Company Managed Project => Create Project
+
+Integration diskip
+Let my teammate invite other people diuncheck
+Lalu klik Invite
+*Kalau udah diinvite, cek email dan accept invitation
+**Kalau ada opsi, skip aja
+
+Klik untuk User Management
+Biar akun SSOnya gak nyantol di sistem Atlassian
+
+Klik 9 kotak kecil berjejer
+Klik Jira Software => Settings => Apps
+Cari Katalon => Install (Get App) => Get it Now
+
+Klik Project lagi => Project Settings
+Klik Apps => Katalon Settings
+Masukan Katalon Email dan API Key (Analytics Katalon)
+
+Buka Katalon TestOps pakai email BFI
+Buka Katalon Desktop buka Plugin Store => Jira => Jira Integration
+Install => Accept and Install
+
+Katalon lagi => Refresh Plugins => Project Settings
+Plugin => Jira => Enable Jira Plugin => API Token
+Copy link masuk ke browser yang akun Atlassian aktif
+Create API Token => Copy ke tempat secure
+
+Katalon lagi => Server URL project sampai .net aja
+Username => Email
+Password => API Token
+Ceklis encrypt authentication data
+Klik Connect => Apply
+
+Default Jira Project tergantung yang lagi dikerjain
+Default Jira Issue Type kalau mau submit ke Jira
+Bug => Issue atau error
+Apply => Apply and Close
+
+Jira => Buat import Test Case ke Jira dan submit issue dari Katalon ke Jira
+Tutorialnya buat yang submit => Ada modul 8 halaman 48
+
+Untuk admin, buka https://testops.katalon.io/user/apikey
+API Keys bisa buat baru atau pakai yang sudah ada
+Copy API Keys
+
+Katalon Jira => Project Settings => Katalon Settings
+Masukkin email Katalon (email BFI)
+Masukkin API Key => Fetch organizations
+Pilih organizations
+
+Katalon Jira nanti kelink dengan Katalon TestOps punya admin
+Member juga kelink dengan Katalon TestOps punya admin
+
+Katalon Jira => Project Settings => Katalon BDD
+Masuk ke Project tadi => Create Issue => Task
+Input Summary => Create => View Issue
+Input Description
+
+Katalon lagi => Jira => Import Test Case from Jira
+
+Katalon Jira => Search => Advance Issue Search
+Type: Task => Copy JQL
+
+Katalon lagi => Dipaste dulu => OK => Test Case => OK
+
+Katalon Jira => Settings => Issue
+Fields => Custom fields => Paragraph
+Isi Name dan Description => Create
+Centang semua => Update
+
+Project Settings => Katalon BDD => Pilih BDD Editor => Add
+Centang Task => Save
+
+Project => Backlog => Nama Tasknya => WP-1
+Test Case BDD yang di bawah
+BDD = Behaviour Driven Development
+
+Nanti bikin Test Case formatnya BDD
+Kalau udah, import Test Case
+Bedanya nanti Test Casenya bakal keimport di featured file
+
+Create Issue => Issue Type => Task
+
+Summary: [NAMA]-TC Login Website
+Deskripsi: penjelasan dikit tentang test casenya
+Gherkin Steps: bikin gherkin steps utk test casenya
+
+Feature: Search Google
+  Scenario: I want to using feature search on google
+    Given I Open browser
+    And Open website Google
+    And Located on google website
+    When I search "BFI"
+    Then Showing result related with "BFI"
+
+File Gherkin ada di Folder Include -> Features
+
+------------------------------------------------------------
+Final Project Jira Integration
+Cukup 1 aja yang diintegrate, gak perlu banyak
+
+------------------------------------------------------------
+Final Project Website
+https://kotakoki.wijaysali.my.id/
+
+Cek Website UI, pakai Logic If-Else
+Data Driven bisa buat nambah nilai
+
+Final Project API
+Bebas
+Punya masnya, https://restful-booker.herokuapp.com/apidoc/index.html
+
+Bisa dari JSON Viewer plugin browser
+https://codebeautify.org/jsonviewer
+
+Kurang direkomendasikan (Bisatopup)
+CNN Indonesia (perlu hosting)
+
+Execute semua Method yang ada di API

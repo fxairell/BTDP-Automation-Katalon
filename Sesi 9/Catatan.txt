@@ -1,0 +1,87 @@
+API Testing dari Business Layer (layer pemrosesan logika)
+Testingnya lebih ke low level
+
+Testing UI itu banyak banget
+API Test itu lebih sedikit
+Unit Test itu lebih sedikit lagi
+
+Benefit dari Testing UI itu bisa tahu dari penampilan yang dilihat user
+Bisa juga verifikasi visual
+
+API Test eksekusinya bisa lebih cepet
+Kekurangannya tidak bisa verifikasi visual
+Unit Test juga gak bisa verifikasi visual
+
+API Testing:
+- Functional (biasanya testing dengan Katalon)
+- UI (ketika dikirim dan dirubah ke tampilan)
+- Load
+- Runtime/Error
+- Security
+- Penetration
+- Fuzz
+- Validation (biasanya testing dengan Katalon)
+
+Kalau di website ada XPath, Variable, Attributes
+Kalau API, request method, URL, header
+
+API ada 2 macam:
+- REST API
+- SOAP API
+
+Pakai Katalon, gak secepat POSTMAN
+Pakai logo run, cuman test aja
+Pakai panah di bawah, test dan verifikasi
+
+Snippets => Bantuan untuk melakukan verifikasi
+Lebih gampangnya template scripting
+
+*tambah status code 200
+**JSON value check => Verifikasi isi dari JSON
+issues[0].fields.project.key => Verifikasi key dan isinya apa
+
+API Testing => Kita udah tahu dokumentasinya, respons yang akan didapat
+Kita hanya verifikasi dari respons dan datanya apakah sesuai
+
+Di Katalon, gak perlu ngetik, untuk verifikasi per data menggunakan CTRL + K
+Untuk menggunakan shortcut verification, harus diarahkan dulu ke bagian response mana yang mau dicek
+Bisa aja nanti kalau POST bisa dikirim ke database
+
+Semisal ada banyak data, seharusnya dicek semua datanya
+Tergantung dari dokumentasi atau aturan
+
+Katalon Testing ada API Chaining
+1. GET data dari endpoint 1
+2. Dapeting extract / variabel yang dibutuhin
+3. Masukin hasil extract ke pengiriman data di Update EP 2
+4. Verifikasi data endpoint 2
+5. Selesai
+
+Sebagai QA akan mempertanyakan kebutuhan aplikasi
+Perpektif masukan untuk final project BTDP
+
+Localhost => Hanya di local di perangkat masing-masing
+Kalau local bermasalah, ambil dari remote
+Sebaiknya sebelum bermasalah, update ke Git
+
+Pertama kita coba di level object dulu, apakah nanti bisa dipake gak
+Dibuat di variabel, bodynya, sesuai dengan yang didokumentasinya
+Nanti pakai pemanggilan variabel ${variabel}
+Contoh: ${email}
+
+Test Case end request object berupa POST atau GET
+Outputnya adalah response
+Response nanti akan diparsing (JSON Slurper)
+Parsing -> memecah respon menjadi bagian yang lebih kecil
+
+Cara tahu apakah ada error atau enggak
+Buat println yang isinya pemanggilan data, dan cek di console
+Dari script program, cek level object, kalau muncul berarti bagus, kalau gak berarti error
+
+REST API = RESTful API
+
+Assignment bikin semua method GET, POST, DELETE
+Bedanya dokumentasi ditaruh di repo github, access public aja
+
+Untuk API Chaining
+https://medium.com/easyread/chaining-request-in-rest-api-using-katalon-studio-127165d7d711

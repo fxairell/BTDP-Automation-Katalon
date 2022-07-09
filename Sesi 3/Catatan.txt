@@ -1,0 +1,124 @@
+Katalon selain bisa manual, bisa juga pakai script mode
+
+Nanti ada 4 macam keyword di Katalon,
+WebUI => Test Web
+WS => Test API (Web Service)
+Mobile => Test Mobile
+Windows => Test Windows
+
+Test bisa dihubungkan dari keyword 1 ke keyword lainnya
+Contoh: Untuk penggunaan WebUI ke WS untuk authentication
+
+Susunan script
+[Keyword].[Action]([Object and Input])
+Ketika di CTRL + SPACE
+
+Object akan mengikuti nama objek di folder Object Repository
+[Object and Input] memiliki susunan Path/Object
+
+waitForPageLoad() => Digunakan untuk jeda sampai halaman muncul
+Click() => Paling sering digunakan
+waitForElementClickable() => Direkomendasikan kalau ada kendala koneksi atau kasus
+				     halaman yang tombolnya harus menunggu untuk diklik
+takeScreenshoot() => Untuk visual testing atau bagian report
+executeJavaScript("{javascript code}", null) => Untuk execute javascript code
+
+Regression => Kumpulan dari banyak fitur
+Cakupan kecilnya adalah Test Suite
+
+Test Case => Bundle: Test Suite => Bundle: Test Suite Collection
+Test Suite = Kumpulan Test Case
+Test Suite Collection = Kumpulan Test Suite
+
+Nanti dibagian Reports bisa kelihatan
+Dan akan generate HTML dan CSV reports
+Untuk buka Reports gak bisa pake license yang gratis
+
+Alangkah baiknya buat Wait for Element Present daripada Delay
+Jika ada kendala internet dan sebagainya
+
+Bedanya Present dan Visible
+Present itu hadir belum tentu Visible
+Visible itu sampai elementnya kelihatan
+
+Visible itu harus ada di viewportnya
+Kalo present yg penting ada di pagenya
+
+Biasanya kalau open browser biasanya maximizeWindow()
+Untuk membuat window menjadi lebih besar
+
+Untuk insert ENTER
+Menggunakan Set Text bisa tapi dirubah untuk String menjadi Keys
+Kemudian nanti Value diklik hingga bisa dirubah menjadi ENTER
+
+Untuk insert keys kombinasi
+Pada Value bisa dikombinasikan sebanyak mungkin
+Pada Keys Builder dialog textbox
+
+Tips:
+1. Masalah apapun search di Google
+2. Buat kitab sendiri
+
+Variable
+1. Test Case Variable
+=> Harus sesuai
+=> Dinamis variabelnya
+
+Klik tabel Variables dengan lambang X
+Input Variables level Test Case
+
+// Ini cuman nguji variabel
+Cara buatnya klik Folder Test Case, New Folder
+Folder dinamain Variable
+Input Value Type menjadi Variable
+Valuenya Variabel
+
+Di Katalon ada kondisionalnya
+
+Failure Handling
+- Stop on Failure: Kalo gagal, berhenti. Test step dianggap Failed
+- Continue on Failure: Kalo gagal, gas terus. Tapi test step dianggap Failed
+- Optional: Kalo misal fail, test step akan ditandai sebagai Warning dan tetap lanjut
+
+Bisa diset di Project Settings
+Test Design -> Test Case
+Default Failure Handling for Test Step: [Pilihan Failure Handling]
+
+Conditional di Katalon bisa untuk Failure Handling
+
+Global Variabel
+Profiles => Default => Input Global Variable
+
+Global Variable bisa dimanfaatkan kalau mau ngetest environment kayak website
+Staging pada saat pengembangan
+Production pada saat deploy
+
+Scantrics.io => Untuk scan subdomain
+
+Profiles => New Profiles => Namain
+Untuk staging contohnya
+Nanti kalau ada 2 profiles, akan ditembak ke kedua profiles
+
+Biasanya Global Variables digunakan untuk:
+1. URL berbeda atau environment berbeda
+2. Akun testnya beda (biasanya punya akun test khusus)
+
+Kalau mau nyimpen encrypted text di variabel harus dienkripsi manual
+Help => Encrypt Text
+Masukan Raw Text => Encrypted Text
+Di Test Case dibuat Set Encrypted Text
+
+Yang sifatnya sensitif, sebaiknya dienkripsi
+Contoh: password
+
+Bisa error untuk Global Variabel
+Biasanya karena Gloval Variable kosong
+Biar bisa berhasil ganti profile executionnya kalau udah didefine di profile lain
+Ganti profile ke profile yang ada Global Variablenya
+
+Encrypted Text untuk data sensitif
+Tergantung dari konteks apa
+
+Untuk aplikasi standalone, bisa ditest pake Katalon
+Di bagian Windows Testing
+Kadang ada beberapa aplikasi yang gak bisa ditest

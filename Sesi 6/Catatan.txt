@@ -1,0 +1,66 @@
+Di report nanti ada informasi tentang
+Test Suite ID
+Versi Katalon
+Mulai test kapan
+Berapa Passed, Error, Incomplete, Failed, dan Skip testnya
+
+Ada execution settings juga
+Biasanya default tapi kalau mau dirubah sesuai kondisi
+
+Log information => Informasi log aksi dari test
+
+Info => Hanya informasi
+Passed => Sudah ditest dan jalan
+Failed => Sudah ditest dan gagal
+Incomplete => Ditest namun belum selesai
+Skip => Ditest namun dilangkahi
+
+Failure Handling yang dikonfigurasi ulang akan mempengaruhi hasil report
+Kalau fail => dilanjut
+Kalau opsional => warning
+
+Tergantung seberapa besar project mempengaruhi adanya software test management project tool
+Akan ada manajemen, pengelompokan, dan waktu test kalau menggunakan software test management project tool
+
+Report bisa dieskpor ke format lain
+HTML, CSV, XLSX, PDF
+
+Alternatif software test management project tool:
+TestRail, TestLink, XRay, Zephyr Squad atau Zephyr Scale
+
+Yang akan buka TestOps gak akan semua, paling gak Test Leadnya
+Informasi tergantung profile yang digunakan
+TestOps untuk ngereport apa saja yang pernah dijalanin
+
+Adalagi fitur Katalon baru yaitu Katalon TestCloud
+Fiturnya mirip Jenkins => Menjalankan test pada scheduling waktu tertentu
+Jenkins butuh resource dari internal server
+TestCloud resource yang dipakai dari server Katalon
+
+Kenapa harus setiap jam, menit, minggu
+Untuk mewakili otomasi testing
+
+Tiap ketemu bug di Katalon,
+Pakai TestOps bisa langsung discreenshoot bugnya
+
+Untuk integrasi JIRA
+https://docs.katalon.com/docs/katalon-studio-enterprise/integration/jira-integration/jira-integration
+
+Conditional Testing menggunakan IF ELSE
+Di Katalon bisa juga, bisa manual, bisa scripting
+
+Di bagian Add => Decision making statements
+Lebih baik pakai scripting
+Perlu FailureHandling di IF ELSE statement
+
+Bisa dikombinasikan dengan consitional statement lain,
+Contohnya looping
+https://docs.katalon.com/docs/katalon-studio-enterprise/create-tests-and-projects/manage-projects/statements/decision-making-statements
+
+Kalau laporan, manual testing menyertakan screenshoot dari manual testing
+Dilampirkan bersama note untuk para developer
+
+Kalau laporan automation, tidak perlu
+
+Burn Down Chart => Grafik seberapa banyak ticket yang bisa dikerjakan
+Velocity Chart => Grafik seberapa banyak dalam 1 sprint commitment yang bisa dikerjakan

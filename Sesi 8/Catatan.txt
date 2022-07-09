@@ -1,0 +1,112 @@
+Cek apakah ada git project di Katalon project folder
+Kalau gak ada => Git => Share Project
+Cek .gitignore
+
+Tambah:
+.cache
+.Project
+di bagian paling bawah .gitignore
+
+Nanti kalau udah dishare akan ada folder .git (hidden folder)
+.git => konfigurasi yang ada di git
+
+Kalau udah, nanti dicommit
+Pastikan sudah ada reposiotry di Git
+Gak usah pake README dan gak usah pake .gitignore
+Harus kosong, putih bersih tak bernoda
+
+Unstaged/Staged
+Untaged Changes => Sudah ada perubahan, tapi belum dinaikan ke Staged Changes
+Changed Stages => Nanti sudah siap untuk commit
+Perlu dikasih Commit Message, bebas
+
+Commit => Sudah sepakat untuk diup ke Git
+Commit aja -> disimpan untuk antrian yang akan dipush
+Commit and push -> disimpan dan langsung submit ke Git
+Push -> dikirim ke server
+Pull -> ditarik dari server
+Fetch -> update ada perubahan atau enggak
+
+Input Git link sama Personal Access Tokens
+Kalau sudah buat, gapapa dipake
+Kalau mau dibedakan juga boleh
+
+Catatan: Kalau mau upload ke Git, usahakan buat Folder di Git biar gak kececer
+Karena upload Git Katalon cuman yang di dalam folder, bukan sama foldernya
+
+Konsep Github
+Kalau ada file biasanya defaultnya main (master)
+Biasanya ada cabang utama namanya branch Master
+Branch => Percabangan dari suatu code
+
+Buat branch sourcenya dari develop
+Buat folder => Pilih branch => Creat new file => Namanya + / (Contoh: airell/)
+
+Kalau branch ada dengan folder dan nama file yang sama namun beda coding,
+Nanti akan ada conflicting
+Caranya bisa digabung manual
+
+Kalo pake CLI:
+1. create branch
+2. checkou branch
+3. modify something di branch
+4. commit dulu changesnya
+a. git add <file> atau git add . (buat semua file/changes)
+b. git commit -m "commit message"
+5. git checkout "develop"
+6. git merge => ini akan buat pull request / merge request
+
+Checkout => pindah branch
+
+Nanti merge/pull request nya di solved di GUI
+
+Pull Request => pilih base sama yang mau dipull => New Pull Request, pastikan filenya
+
+Better Description di Git
+WHAT
+WHY (Developer mindset)
+HOW (QA gimana cara mereprodue bugnya itu)
+Make it visual (entah itu screenshoot atau video)
+
+Kalau ada perubahan,
+Kalau misal ada branch yang belum muncul
+Manage Branch pilih Advanced...
+Pilih Remote Tracking => Checkout => Checkout as New Local Branch
+Checkout new branch aja yang diceklis
+Commit => Staged => Push
+
+Clone Project => Branchnya yang develop aja sama master yang diceklis
+Directory bebas
+Initial branch pilih yang Develop
+
+Kalau mau upload pertama kali => Share
+Kalau mau update => Fetch
+
+format .tc => Format katalon untuk konversi manual dan ngambil script dalam bahasa Groovy
+
+SSH => Buat satu kode di local, untuk upload ke Git atau Cloud
+
+Jira => Plugin integrasi Katalon dengan Jira
+Konsepnya ada dua lapis:
+1. Generate API Token Jira
+Masuk ke admin.atlassian.com
+2. Buka Project
+3. Settings
+4. API Keys => Create API Key
+
+Enable Katalon x Jira:
+1. Visit Katalon Store => Jira Integration
+2. Project Settings => Plugins => Enable Integration
+3. Server URL => Overview di bagian Projectnya
+		     Username sesuai yang terdaftar
+		     Password / API Token sesuai yang digenerate
+4. Connect
+5. Issue Type: Bug
+6. Apply and Close
+
+Nanti bisa import Test Case dari Jira
+Jira JQL => Jira Query Language
+
+Final Project wajib pake Git
+Final Project gak wajib pake Jira
+Fokus ke API dan Mobile testing

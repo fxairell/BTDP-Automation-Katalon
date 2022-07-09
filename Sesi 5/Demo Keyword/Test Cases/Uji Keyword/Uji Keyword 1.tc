@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Untuk menguji keyword buatan</description>
+   <name>Uji Keyword 1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a87522af-e888-4d3e-9d40-1561d8362cc5</testCaseGuid>
+</TestCaseEntity>

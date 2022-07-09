@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Testing pertama untuk REST API</description>
+   <name>Test REST API</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>08e95944-aaca-4a10-af96-85258849895f</testCaseGuid>
+</TestCaseEntity>

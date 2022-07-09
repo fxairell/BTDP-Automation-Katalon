@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Send POST request to write post 9</description>
+   <name>PST_009</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>04f93897-b8c9-4c0e-ac1a-ce6384255c73</testCaseGuid>
+</TestCaseEntity>

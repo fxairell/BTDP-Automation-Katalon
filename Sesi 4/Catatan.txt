@@ -1,0 +1,64 @@
+Pendekatan pemanggilan Test Case:
+Blocks => Skrip yang tidak bisa dijalankan mandiri
+Skenario => Skrip yang bisa dijalankan mandiri
+
+Kalau ada yang mau dipisah, sebaiknya dipisah per folder
+Mana yang blok dan mana yang skenario
+
+Konsep paste data di Katalon
+Harus buat entry di Excel
+Harus buat di Data Files => New Folder => New Test Data
+
+Sebaiknya kalau Test Data dimasukkan ke folder Data Files yang di dalam project
+Alangkah baiknya kalau di dalam folder Data Files
+Perlu di kasih folder baru RAW DATA karena masih excel
+
+Atur Test Datanya lalu save
+Kalau sudah bikin Test Suites
+Taruh Test Case, kemudian dibinding datanya
+Klik Show Data Binding => Add Test Data
+
+Type diset ke Data Column
+Test Data diset ke kolomnya
+Value diset ke nama kolomnya
+
+Yang sering jadi masalah adalah itemnya
+Kadang lupa diganti Encrypted sama teks biasa
+Disesuaikan aja sesuai dengan kolom data
+
+Kalau misal gagal, di Test Suites
+Execution Information bisa diatur sesuai yang dibutuhkan
+
+Kalau ada data error di test data, harus diupdate di file sumber
+Gak edit di Katalon
+
+Kalau nanti kerja bareng,
+Ceklis Use relative path
+Tujuannya biar mudah
+
+Test Suite Collection = Kumpulan test suite
+New Test Suite Collection di Test Suites
+
+Bisa dijalankan secara sequential dan parallel
+Sequential = berurutan / bergantian
+Parallel = berdampingan
+
+Sequential => Jalanin di browser berbeda
+
+Compatibility test => Test apakah app dapat dijalankan pada device tertentu
+Kalau gak kuat memorynya, ganti dengan original environemtnya
+
+Carried Over = Ticket yang belum selesai, nanti dibawa ke depan ticket yang sebelumnya
+Kembali lagi ke kebutuhan bisnis, tergantung sikonnya
+Efeknya, projectnya jadi terbengkalai, dan biasanya lupa ngurus lagi
+
+Tips and Trick inspect element
+Klik kanan inspect element atau F12
+Klik elementnya
+
+Regular Expression => Digunakan untuk kecocokan pola
+Regex => True kalau mau case sensitive
+	   False kalau gak case sensitive
+
+Di bagian alert object repository
+Settings ganti ke Attributes

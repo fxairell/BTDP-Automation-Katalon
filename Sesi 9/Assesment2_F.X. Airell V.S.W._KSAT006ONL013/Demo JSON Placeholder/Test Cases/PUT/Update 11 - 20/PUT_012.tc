@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Send PUT request to update post 12</description>
+   <name>PUT_012</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09e5a428-ed66-49c3-abca-64faa97f0fb7</testCaseGuid>
+</TestCaseEntity>

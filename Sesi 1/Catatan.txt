@@ -1,0 +1,71 @@
+Quality Control = Software Tester
+
+Ketika nemu bug, jangan senang, tapi sedih
+Ada beberapa hal yang harus dilakukan:
+1. Bug harus dicoba lagi dan dipastikan ada
+2. Cek untuk insiden report dan setiap test case
+
+Ada juga Grey Test:
+Gabungan dari Black Box dan White Box Testing
+
+Selama developing process, kita bisa buat test casenya
+1. Dari requirement, terutama dari fungsi dasar
+2. Baru pengembangan dari negative flow
+
+Bug intermitten => Bug yang kadang muncul, kadang enggak
+Bisa aja karena koneksi internet gak stabil
+Bisa aja karena spesifikasi device, seperti GPU, resolusi, graphic (game)
+
+Waterfall Development Model
+---------------
+Analysis
+----------
+	Requirement Specification
+	----------
+		Design
+		----------
+			Development
+			----------
+				Testing and Integration
+				----------
+					Implementation/Deployment
+					----------
+
+Scrum Development Model
+Inputs from Executives, Team, Stakeholders, Customers, Users
+||
+\/
+Product Owner => Product Backlog (Ranked list of what is required features)
+||
+\/
+The Team => Sprint Planning Meeting (Team selects starting as top as much as it can commit to deliver by end of Sprint)
+	   => Sprint Backlog (Task breakout)
+*Sprint = Satu rentang waktu
+
+Sprint Backlog => 1 - 4 week sprint (Sprint end date and team deliverable do not change)
+		   => Sprint Review
+		   => Finished Work
+		   => Sprint Restrospective
+
+Sprint Backlog => Every 24 hours
+		   => Scrum Master
+		   => Burndown/up Charts
+		   => Daily Scrum Meeting
+
+Nanti buat Bug Ticket atau sebutannya Ticket
+Ticket = Satu bentuk catatan untuk tugas
+
+Kuncinya:
+1. Harus selalu semangat belajar
+2. Kepo dalam artian praktek, jelas, dan bangun jaringan
+3. Makin sering banyak latihan dan project
+
+Untuk mengetahui sebuah bug, harus dicek melalui requirementnya
+Kalau bukan bug, berarti fitur
+
+Career Path
+SQA (Software Quality Assurance) : In general (bisa manual aja, bisa automation aja)
+Software Tester, Quality Control : Fokus on end-product (umumnya cuma manual test aja)
+QA Engineer, Test Engineer, SDEIT, SEIT : Pasti ngerjain automation, tapi biasanya juga manual test
+*SDEIT : Software Development Engineering in Test
+**SEIT : Software Enginerring in Test

@@ -1,0 +1,63 @@
+Untuk final project dan assesment selanjutnya kalau bisa dirapikan
+Dibuat folder, baik Test Cases, Object Repository
+Catatan: Dirapiin buat Assesment 1 untuk nama folder dan object
+
+Keyword > Natural Language
+=> Lebih mudah dipahami dan dikembangkan
+
+Design and Development Stage
+Implementation Stage
+
+Kalau semisal mau buka dokumentasi library keyword,
+CTRL + Klik 2 kali keywordnya
+
+Groovy = bahasa turunan Java
+Bedanya gak pake titik koma di akhir perintah
+
+Scripting sama manual sama kayak biasa
+
+Pada saat spy object, XPath bisa diganti tergantung kebutuhan
+Defaultnya, bakal capture semua XPathnya
+Caranya ganti ke Attributes
+
+Harus tahu dulu struktur Website : HTML
+Untuk locate objectnya ada di kolom Object Name
+
+Abis dari Attributes,
+Cek di bagian text, kalau bisa didisable aja
+Karena Katalon bakal capture sekaligus dengan capture beserta dengan textnya
+
+Attributes => properti object
+Contoh: Scroll down Healthcare Center di CURA Page
+
+Gak semua attributes yang dipilih itu tepat
+Maka harus perhatikan attributes
+Attributes bisa aja dinamis, kalau masuk ke script bisa error kalau sama testnya
+Usahakan kalau capture object, gunakan attributes yang sesuai atau yang stabil
+Biar gak flaky (gak stabil)
+
+Kalau direcord, bisa aja dirapiin sesuai preferensi
+Klik Captured Objects dan Object Properties
+Disesuaikan Object Namenya
+
+Sebaiknya, gunakan objek yang udah pernah dicapture sebelumnya
+Bisa dicustom Test Object secara manual, dengan di drag
+
+Materi Tambahan: Testing Database
+Data Driven Testing dengan Database
+
+Setting connector Katalon dengan SQL di Project Settings => Library Management
+Perlu connector harus di download di
+https://docs.katalon.com/docs/katalon-studio-enterprise/test-execution/data-driven-testing/implement-data-driven-testing-with-mysql
+Nanti extract di sembarang tempat
+
+Nanti diconnect sesuai dengan database SQLnya
+Edit Query masukan sesuai dengan querynya
+QUERYnya harus pakai backtic ` jangan pakai petik '
+
+Ada keyword untuk ambil database
+https://docs.katalon.com/docs/katalon-studio-enterprise/extend-katalon-studio/custom-keywords/how-to-perform-database-testing-using-katalon-studio
+
+Kata kunci di Google, Custom Keywords Katalon
+https://medium.com/dsf-developers/utilize-custom-keywords-in-katalon-studio-c52b46e82b39
+https://github.com/katalon-studio/katalon-studio-ashot-plugin

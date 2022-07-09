@@ -1,0 +1,27 @@
+Untuk Sesi 12 digabung ke Sesi 11
+Folder dummy bisa ditaruh di Sesi 12
+
+Seluruh project nanti integrasi di folder Sesi 11
+
+------------------------------------------------------------
+QA itu gak asal klik klik
+Tapi juga assertion = memastikan data yang dimasukkan valid
+
+Assesment 2 minimal 10
+
+https://docs.katalon.com/docs/katalon-studio-enterprise/keywords/mobile-keywords/mobile-swipe#ariaid-title1
+https://docs.katalon.com/docs/katalon-studio-enterprise/test-execution/advanced-guides/mobile-testing/handling-vertical-swipe-in-mobile-automation#ariaid-title1
+https://docs.katalon.com/docs/katalon-studio-enterprise/keywords/mobile-keywords/mobile-scroll-to-text#ariaid-title1
+
+https://forum.katalon.com/t/unable-to-close-application-when-keyword-mobile-startexistingapplication-is-being-used/38102/3
+akhirnya pake metode ini, cuman tak ganti aja jadi gini:
+driver.terminateApp('com.package.name')
+
+so, code structurenya adalah:
+
+Mobile.startExistingApplication('com.package.name')
+driver = MobileDriverFactory.getDriver()
+
+/*kemudian script ATnya sesuai kebutuhan*/
+
+driver.terminateApp('com.package.name')

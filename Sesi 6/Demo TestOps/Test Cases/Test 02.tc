@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Hanya coba untuk TestOps</description>
+   <name>Test 02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a60763b7-cd94-48f3-bd38-7ec67a7925f6</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Send GET request to get posts by post ID 1</description>
+   <name>GET_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>26892a2b-3b0f-438d-8a8d-71df21c53bf2</testCaseGuid>
+</TestCaseEntity>

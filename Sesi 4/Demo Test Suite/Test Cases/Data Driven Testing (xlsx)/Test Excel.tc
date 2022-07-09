@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Untuk test excel</description>
+   <name>Test Excel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc73dd22-40cd-49c1-abf6-96028df93566</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>caacbe71-db81-49e6-ab01-e9f9eb3d33e5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>22bfd26c-d5ab-479e-a6d1-f7d277fdd834</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>caacbe71-db81-49e6-ab01-e9f9eb3d33e5</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>22bfd26c-d5ab-479e-a6d1-f7d277fdd834</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Send GET request to get all posts and
+verify all post contents</description>
+   <name>GET_102</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a4d415d-a9fe-4ce5-937d-c8917081dfcc</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>a5af3efe-fc90-44dc-9009-8427f7905d4a</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Katalon Data (Excel)/JSON Placeholder (Posts)</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>a5af3efe-fc90-44dc-9009-8427f7905d4a</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>userId</value>
+      <variableId>2421543e-d4f2-4e47-a2de-108a09b07076</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>a5af3efe-fc90-44dc-9009-8427f7905d4a</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>id</value>
+      <variableId>6697eb3c-2b6f-4f22-b453-65cdfe8b1b86</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>a5af3efe-fc90-44dc-9009-8427f7905d4a</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>title</value>
+      <variableId>3f81dfbe-a370-4c90-99a6-5629453023a5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>a5af3efe-fc90-44dc-9009-8427f7905d4a</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>body</value>
+      <variableId>902fb99a-f6fd-40a6-b214-87b62b6023f2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>2421543e-d4f2-4e47-a2de-108a09b07076</id>
+      <masked>false</masked>
+      <name>userID</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>6697eb3c-2b6f-4f22-b453-65cdfe8b1b86</id>
+      <masked>false</masked>
+      <name>ID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3f81dfbe-a370-4c90-99a6-5629453023a5</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>902fb99a-f6fd-40a6-b214-87b62b6023f2</id>
+      <masked>false</masked>
+      <name>body</name>
+   </variable>
+</TestCaseEntity>

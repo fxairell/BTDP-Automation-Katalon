@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menggunakan manual</description>
+   <name>GoogleCalc Mandiri</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>26147bed-4394-4074-b371-912bb2166ee7</testCaseGuid>
+</TestCaseEntity>

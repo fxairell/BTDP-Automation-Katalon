@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Untuk test 2 + 2
+Menggunakan record</description>
+   <name>GoogleCalc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b47240ae-387b-4a10-ba37-fb2dfc9b3d79</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ini hanya untuk test</description>
+   <name>Test 001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>575559f0-da2a-4ebc-b427-fd920fb3eb8d</testCaseGuid>
+</TestCaseEntity>

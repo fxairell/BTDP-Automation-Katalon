@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Untuk menguji website menggunakan database untuk test datanya</description>
+   <name>Uji Database</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a581644c-f307-4522-8585-2ac46040bb57</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>8fb5bf5d-b331-483f-bad0-e19912c4155b</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Data Test DB/Test User Credential</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>8fb5bf5d-b331-483f-bad0-e19912c4155b</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>95368334-e37c-46aa-8c6d-46f679e631f7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>8fb5bf5d-b331-483f-bad0-e19912c4155b</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>9833c661-dc35-42cf-935c-4c97c4c9c33a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>95368334-e37c-46aa-8c6d-46f679e631f7</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9833c661-dc35-42cf-935c-4c97c4c9c33a</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

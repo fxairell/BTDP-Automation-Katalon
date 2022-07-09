@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Send GET request to get all posts by user ID 7</description>
+   <name>GTU_007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9ef09f5a-a985-4c3d-884d-45471777b429</testCaseGuid>
+</TestCaseEntity>

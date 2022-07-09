@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "C4FB809FAEFF68BDFE159EE8F306CDE8",
+  "keywordClasses": [
+    {
+      "name": "com.customkeyword.opendb",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

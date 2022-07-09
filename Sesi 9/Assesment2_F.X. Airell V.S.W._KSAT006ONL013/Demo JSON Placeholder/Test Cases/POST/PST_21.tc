@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Send POST request to write several posts</description>
+   <name>PST_21</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>358e2026-74fd-4e60-82f3-4d0905162a9e</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>abe97d2a-6412-422f-b154-aa0bfef74f52</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Katalon Data (Excel)/JSON Placeholder (New Posts)</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>abe97d2a-6412-422f-b154-aa0bfef74f52</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>title</value>
+      <variableId>4b4390eb-b360-41ac-a3d0-d33579f0e0e4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>abe97d2a-6412-422f-b154-aa0bfef74f52</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>body</value>
+      <variableId>a363ba0b-b23d-4282-b33a-08ad2e42c537</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>abe97d2a-6412-422f-b154-aa0bfef74f52</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>userId</value>
+      <variableId>4285ce26-3082-4f35-9b92-5818ff8dccf1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4b4390eb-b360-41ac-a3d0-d33579f0e0e4</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a363ba0b-b23d-4282-b33a-08ad2e42c537</id>
+      <masked>false</masked>
+      <name>body</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>4285ce26-3082-4f35-9b92-5818ff8dccf1</id>
+      <masked>false</masked>
+      <name>userID</name>
+   </variable>
+</TestCaseEntity>
