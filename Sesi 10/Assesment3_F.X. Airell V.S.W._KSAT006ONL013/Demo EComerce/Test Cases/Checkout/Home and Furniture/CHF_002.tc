@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checking out Stand Hanger in Home and Furniture Category</description>
+   <name>CHF_002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0e05c7e-956b-4d85-9bbe-70e7259b88af</testCaseGuid>
+</TestCaseEntity>

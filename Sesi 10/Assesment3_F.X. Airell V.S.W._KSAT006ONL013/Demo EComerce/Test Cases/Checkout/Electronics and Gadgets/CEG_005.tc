@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checking out TV in Electronics and Gadgets Category</description>
+   <name>CEG_005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc6338da-ee65-40fa-b695-31a2068dada4</testCaseGuid>
+</TestCaseEntity>

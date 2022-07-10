@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checking out Vacuum Cleaner in Home and Furniture Category</description>
+   <name>CHF_004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0418293-38fa-49ed-85b1-b8e1fa1bf10d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checking out Tensimeter in Health and Sports Category</description>
+   <name>CHS_003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3506b49-663b-4295-b472-6c814b132836</testCaseGuid>
+</TestCaseEntity>

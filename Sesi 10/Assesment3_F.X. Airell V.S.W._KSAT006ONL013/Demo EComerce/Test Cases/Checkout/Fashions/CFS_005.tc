@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checking out Watch in Fashions Category</description>
+   <name>CFS_005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2b1a17b-2611-45df-b7b6-75516666d1f7</testCaseGuid>
+</TestCaseEntity>
