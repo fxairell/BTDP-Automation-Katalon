@@ -60,8 +60,8 @@ assertThat(response.getResponseText()).contains('firstname')
 assertThat(response.getResponseText()).contains('lastname')
 assertThat(response.getResponseText()).contains('totalprice')
 assertThat(response.getResponseText()).contains('depositpaid')
-assertThat(response.getResponseText()).contains('bookingdates.checkin')
-assertThat(response.getResponseText()).contains('bookingdates.checkout')
+assertThat(response.getResponseText()).contains('checkin')
+assertThat(response.getResponseText()).contains('checkout')
 assertThat(response.getResponseText()).contains('additionalneeds')</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

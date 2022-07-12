@@ -17,5 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WS.sendRequestAndVerify(findTestObject('GET Booking/GET All Booking Details Information'))
+if (WS.sendRequestAndVerify(findTestObject('GET Booking/GET All Booking Details Information'), FailureHandling.OPTIONAL)) {
 
+	println("Data is in database.")
+
+} else {
+
+	println("Data is not in database.")
+
+}

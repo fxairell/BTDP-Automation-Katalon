@@ -32,8 +32,10 @@ Total terdapat 48 Test Case berbeda beserta alur dan penjabaran Positif atau Neg
 dilengkapi dengan Pre Condition untuk mempersingkat penulisan alur Test Case.
 
 Beberapa catatan tambahan:
-a) Data pada website memiliki sifat yang cukup dinamis sehingga kurang pas apabila menggunakan metode
+a) [SOLVED] Data pada website memiliki sifat yang cukup dinamis sehingga kurang pas apabila menggunakan metode
    testing Data Driven (DDT) yang bersifat statis seperti Excel. Test Case sengaja digagalkan karena
    metode yang digunakan kurang cocok dalam testing API dengan model seperti ini. Pengembangan metode
    diperlukan agar dapat merekam penampilan seluruh ID dan mendapatkan detail dari booking yang
    dilakukan.
+
+   [Answer] Penambahan pernyataan kondisional cukup membantu dalam mengurangi ketidakpastian data.

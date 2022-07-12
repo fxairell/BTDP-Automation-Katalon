@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Send GET request to get all booking IDs</description>
    <name>GET_001</name>
    <tag></tag>
    <comment></comment>
