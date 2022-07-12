@@ -2,7 +2,7 @@ Disclaimer
 Perhatian file ini berisi ringkasan dari file project Katalon pada Folder Final Project1_F.X.
 Airell V.S.W._KSAT006ONL013 yang terdapat pada Folder Sesi 11 bagian dari Automation Testing with
 Katalon Studio. Adapun ringkasan merupakan deskripsi singkat mengenai hal yang tercantum pada file
-excel ScenarioTestDocs-20220706-F.X. Airell Valerio Satrio W.xlsx.
+excel ScenarioTestDocs-20220706-F.X. Airell Valerio Satrio W (API).xlsx.
 
 Nama			: F.X. Airell Valerio Satrio Wibowo
 Kode Peserta	: KSAT006ONL013
